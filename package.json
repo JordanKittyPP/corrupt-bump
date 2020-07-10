@@ -1,0 +1,26 @@
+{
+  "name": "bush-seasoned-asteriod",
+  "version": "^1.0.0",
+  "description": "Bump Bot",
+  "engines": {
+    "node": "12x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "quick.db": "^7.1.1",
+    "better-sqlite3": "^7.0.1",
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.2.0",
+    "humanize-duration": "^3.22.0",
+    "moment": "^2.25.3",
+    "@ascua/moment.js": "^0.0.50",
+    "moment-duration-format": "^2.2.2",
+    "express": "^4.17.1",
+    "long": "^4.0.0"
+  }
+}
