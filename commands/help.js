@@ -18,17 +18,8 @@ module.exports = {
         .setTitle(" Help")
         .setColor("#3377d0")
         .setThumbnail(client.user.avatarURL)
-        .addField("**nb!help <command>**", "This command shows the list of commands.")
-        .addField("**nb!about**", "Use this command to view information on the bot.")
-        .addField("**nb!bump**", "Use this command to bump your server.")
-        .addField("**nb!autobump [on|off]**", "*This is a premium command.* unavailable")
-        .addField("**nb!preview**", "Use this command to preview your server's bump embed.")
-        .addField("**nb!setchannel [channel|reset]**", "Use this command to set your server's bump channel.")
-        .addField("**nb!setdescription [desc...|reset]**", "Use this command to set your server's description")
-        .addField("**nb!setinvite**", "Use this command to set your server's invite")
-        .addField("**nb!setcolor [hexColorCode|reset]**", "*This is a premium command.* unavailable")
-        .addField("**nb!setbanner [link...|reset]**", "*This is a premium command.* unavailable")
-        .setFooter("Nexus bump")
+        .addField("")
+        .setFooter("")
         .setTimestamp();
 
       return message.channel.send(Links);
