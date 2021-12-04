@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.once("ready", () => {
   console.log("Ready!");
-  client.user.setActivity(`Ur mom`, { type: 2 }); //nb!help | nb!invite
+  client.user.setActivity(`Ur mom`, { type: 2 }); //vb!help | vb!invite
 });
 
 client.on("message", message => {
