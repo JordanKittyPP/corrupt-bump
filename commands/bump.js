@@ -52,7 +52,7 @@ module.exports = {
           .setDescription("**Missing:** Invite")
           .addField(
             "**:bell: Suggestion: Help Command**",
-            "Check out `gy!help` to see how to set the missing values above."
+            "Check out `vb!help` to see how to set the missing values above."
           );
       
       message.chnanel.send(missInvite)
@@ -63,7 +63,7 @@ module.exports = {
           .setDescription("**Missing:** Description")
           .addField(
             "**:bell: Suggestion: Help Command**",
-            "Check out `gy!help` to see how to set the missing values above."
+            "Check out `vb!help` to see how to set the missing values above."
           );
       
       message.chnanel.send(missDesc)
@@ -74,7 +74,7 @@ module.exports = {
           .setDescription("**Missing:** Channel")
           .addField(
             "**:bell: Suggestion: Help Command**",
-            "Check out `gy!help` to see how to set the missing values above."
+            "Check out `vb!help` to see how to set the missing values above."
           );
       
       message.chnanel.send(missDesc)
